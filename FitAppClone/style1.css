@@ -1,0 +1,47 @@
+body {
+  background-color: #1f1b2e;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.main-container {
+  background-color: transparent;
+}
+
+.main-box {
+  max-width: 1000px;
+  background-color: rgb(57, 56, 56);
+}
+
+.left-section {
+  background: url("loginsea.jpg") no-repeat center center/cover;
+  position: relative;
+}
+.left-section .overlay-text {
+  position: absolute;
+  bottom: 30px;
+  left: 30px;
+  font-size: 1.2rem;
+}
+
+.right-section {
+  background-color: #1f1b2e;
+}
+.right-section input,
+.right-section .form-check-label {
+  background-color: rgb(57, 56, 56);
+  color: #cfcfcf;
+}
+.right-section input::-moz-placeholder {
+  color: #888;
+}
+.right-section input::placeholder {
+  color: #888;
+}
+.right-section .btn-primary {
+  background-color: #8c6efc;
+  border: none;
+}
+.right-section .btn-primary:hover {
+  background-color: #c2b9df;
+}/*# sourceMappingURL=style1.css.map */

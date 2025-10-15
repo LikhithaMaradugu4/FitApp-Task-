@@ -1,0 +1,53 @@
+$primary-bg: #1f1b2e;
+$login-clr: #8c6efc;
+
+body {
+  background-color: $primary-bg;
+  font-family: "Poppins", sans-serif;
+  color: #fff;
+}
+
+.main-container {
+  background-color: transparent;
+}
+
+.main-box {
+  max-width: 1000px;
+  background-color: rgb(57, 56, 56);
+}
+
+.left-section {
+  background: url("loginsea.jpg")
+    no-repeat center center/cover;
+  position: relative;
+
+  .overlay-text {
+    position: absolute;
+    bottom: 30px;
+    left: 30px;
+    font-size: 1.2rem;
+  }
+}
+
+.right-section {
+  background-color: $primary-bg;
+  
+  input,
+  .form-check-label {
+    background-color:  rgb(57, 56, 56);
+    color: #cfcfcf;
+  }
+
+  input::placeholder {
+    color: #888;
+  }
+
+  .btn-primary {
+    background-color: $login-clr;
+    border: none;
+
+    &:hover {
+      background-color:  #c2b9df;
+    }
+  }
+}
